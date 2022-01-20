@@ -1,6 +1,7 @@
 # import libraries
 import pandas as pd
 import numpy as np
+import matplotlib
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split, cross_val_score, cross_validate, cross_val_predict
 from sklearn.model_selection import cross_validate
