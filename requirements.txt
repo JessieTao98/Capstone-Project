@@ -1,9 +1,9 @@
 altair==4.1.0
-eli5==0.11.0
+eli5>=0.11.0
 ipython==8.0.1
 matplotlib==3.4.3
-numpy == 1.18.0
-pandas==1.3.3
+numpy >= 1.18.0
+pandas>=1.3.3
 scikit_learn==1.0.2
 seaborn==0.11.2
 shap==0.40.0
