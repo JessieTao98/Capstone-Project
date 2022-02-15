@@ -107,7 +107,7 @@ st.markdown('''
             __• “0” for NOT owned in a column labeled as “target”__''')
 st.markdown('''Include as many financial ratios as you'd like (Minimum of 10).''')
 st.markdown(
-        "**Download [a sample data here](https://github.com/JessieTao98/Capstone-Project/blob/3abbab999505ecf886d94adaf6fcfb16b782318c/export-Global%20Equity-08-31.parquet)! ** ")
+        "**Download [a sample data here](https://github.com/JessieTao98/Capstone-Project/raw/3abbab999505ecf886d94adaf6fcfb16b782318c/export-Global%20Equity-08-31.parquet)! ** ")
 
 #this instruction can be prompt as a error alert if the user apload n unqualified file.
 # Load data
