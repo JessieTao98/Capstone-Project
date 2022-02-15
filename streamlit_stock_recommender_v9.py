@@ -102,7 +102,7 @@ section_title("Upload Your Stock Dataset")
 # with st.expander("instruction", expanded=False):
 st.markdown('''Please upload your portfolio and watchlist. This dataset should be formatted as a parquet file.
             Please confirm the stock ticker/id column is named “entity_id” and indicate whether the stock is currently held or not using the following labeling convention in a column named "target":\n
-            • “1” for owned
+            • “1” for owned\n
             • “0” for NOT owned in a column labeled as “target”''')
 st.markdown('''Include as many financial ratios as you'd like (Minimum of 10).''')
 st.markdown(
