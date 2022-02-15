@@ -103,8 +103,8 @@ section_title("Upload Your Stock Dataset")
 st.markdown('''Please upload your portfolio and watchlist. This dataset should be formatted as a parquet file.
             Please confirm the stock ticker/id column is named “entity_id” and indicate whether the stock is currently held or not using the following labeling convention in a column named "target":''')
 st.markdown('''           
-            • “1” for owned\n
-            • “0” for NOT owned in a column labeled as “target”''')
+            __• “1” for owned__\n
+            __• “0” for NOT owned in a column labeled as “target”__''')
 st.markdown('''Include as many financial ratios as you'd like (Minimum of 10).''')
 st.markdown(
         "**Download [a sample data here](https://github.com/JessieTao98/Capstone-Project/blob/3abbab999505ecf886d94adaf6fcfb16b782318c/export-Global%20Equity-08-31.parquet)! ** ")
